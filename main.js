@@ -70,8 +70,6 @@ function writeYouGenres() {
       personalMovieDB.genres[i - 1] = prompt(`Your favorite genre of films by number ${i}`, '');
    }
 }
-
-
 writeYouGenres();
 
 
