@@ -24,8 +24,6 @@ let personalMovieDB = {
 };
 
 function rememberMyFilms() {
-
-
    for (let i = 0; i < 2; i++) {
       const key = prompt("What a film you've been watched", ''),
          prop = prompt("How you grade this film", '');
